@@ -1,0 +1,155 @@
+*,*::before,*::after{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+body{
+    
+
+   margin: auto; 
+   background-color:  hsl(217, 54%, 11%);
+   font-family: 'Outfit',sans-serif;
+   
+   
+
+}
+.container{
+	display:flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 1em;
+
+
+}
+.card{
+  max-width: 20rem;
+  min-height: 70vh;
+  background-color: hsl(216, 50%, 16%);
+  padding:1.5em;
+  margin-top: 2em;
+  border-radius: 10px;
+}
+
+
+img{
+  max-width: 100%;
+  border-radius: 10px;
+}
+#img-container{
+    position: relative;
+
+}
+
+
+#equilibrium-img{
+    display:block;
+    transition: .5s ease;
+    border-radius: 10px;
+}
+
+
+.image-overlay{
+    position: absolute;
+    border-radius: 10px;
+        top: 0;
+    
+       left: 0;
+      right: 0;
+      bottom: 0;
+
+    width: 100%;
+    transition: 0.25s ease;
+    opacity: 0;
+    background-color: hsla(178, 100%, 50%,0.5);
+}
+.view-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+
+#img-container:hover .image-overlay {
+    opacity: 1;
+    cursor:pointer;
+    
+}
+h3{
+  color:hsl(0, 0%, 100%);
+  font-weight: 600;
+  margin-top: 1em;
+}
+h3:hover{
+color:hsl(178, 100%, 50%);
+cursor:pointer;
+}
+p{
+  font-size: 15px;/*1.125rem;*/
+  color:hsl(215, 51%, 70%);
+
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+}
+.info-container{
+  display: flex;
+  margin-bottom: 1em;
+  flex-direction: row;
+  
+
+}
+#ethereum{
+  margin-right: .5em;
+}
+.info-text{
+color:hsl(178, 100%, 50%);
+font-weight:600;
+
+}
+.time-info{
+
+margin-left: auto;
+
+}
+.time{
+color:hsl(215, 51%, 70%); 
+margin-left: .5em; 
+}
+hr{
+color: hsl(215, 32%, 27%);
+}
+.avatar-container{
+  display: flex;
+}
+.avatar-text{
+  color:hsl(215, 51%, 70%);
+  margin-top: 1.5em;
+  margin-left: 1em;
+  /*align-items: center;
+  justify-content: center;*/
+  font-weight: 300;
+}
+  #owner-img{
+  width: 12%;
+  border:1px solid white;
+  border-radius: 100%;
+  margin-top: 1em;
+}
+.owner-name{
+  color:hsl(0, 0%, 100%);
+}
+.owner-name:hover{
+color: hsl(178, 100%, 50%);
+cursor: pointer;
+}
+
+.attribution { 
+  font-size: 11px; text-align: center;
+  margin-top: 2em;
+   }
+.attribution a {
+ color: hsl(228, 45%, 44%);
+  }
