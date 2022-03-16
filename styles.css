@@ -25,7 +25,7 @@ body{
 }
 .card{
   max-width: 20rem;
-  
+  min-height:70vh;
   background-color: hsl(216, 50%, 16%);
   padding:1.5em;
   
@@ -120,7 +120,7 @@ margin-left: auto;
 color:hsl(215, 51%, 70%); 
 margin-left: .5em; 
 }
-hr{
+.decoration-line{
 color: hsl(215, 32%, 27%);
 }
 .avatar-container{
