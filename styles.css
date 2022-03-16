@@ -15,6 +15,7 @@ body{
 }
 .container{
 	display:flex;
+	min-height:100vh;
      flex-direction: column;
      justify-content: center;
      align-items: center;
@@ -27,7 +28,7 @@ body{
   min-height: 70vh;
   background-color: hsl(216, 50%, 16%);
   padding:1.5em;
-  margin-top: 2em;
+  
   border-radius: 10px;
 }
 
