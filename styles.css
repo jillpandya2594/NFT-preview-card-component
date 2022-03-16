@@ -80,6 +80,7 @@ img{
 h1{
   color:hsl(0, 0%, 100%);
   font-weight: 600;
+	font-size:18px;
   margin-top: 1em;
 }
 h1:hover{
