@@ -133,6 +133,8 @@ color: hsl(215, 32%, 27%);
   /*align-items: center;
   justify-content: center;*/
   font-weight: 300;
+  transition:.5s ease;	
+	
 }
   #owner-img{
   width: 12%;
