@@ -9,7 +9,7 @@ body{
    margin: auto; 
    background-color:  hsl(217, 54%, 11%);
    font-family: 'Outfit',sans-serif;
-   
+   padding:1em;
    
 
 }
@@ -24,7 +24,7 @@ body{
 
 }
 .card{
-  max-width: 24rem;
+  max-width: 20rem;
   
   background-color: hsl(216, 50%, 16%);
   padding:1.5em;
