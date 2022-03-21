@@ -9,13 +9,13 @@ body{
    margin: auto; 
    background-color:  hsl(217, 54%, 11%);
    font-family: 'Outfit',sans-serif;
-   padding:1em;
+   
    
 
 }
 .container{
 	display:flex;
-	
+padding:6em;
      flex-direction: column;
      justify-content: center;
      align-items: center;
