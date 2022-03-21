@@ -15,7 +15,7 @@ body{
 }
 .container{
 	display:flex;
-	min-height:100vh;
+	min-height:auto;
      flex-direction: column;
      justify-content: center;
      align-items: center;
@@ -25,7 +25,7 @@ body{
 }
 .card{
   max-width: 20rem;
-  min-height:auto;
+  
   background-color: hsl(216, 50%, 16%);
   padding:1.5em;
   
