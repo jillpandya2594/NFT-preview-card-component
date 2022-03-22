@@ -138,8 +138,9 @@ color: hsl(215, 32%, 27%);
 	
 }
   #owner-img{
-  width: 12%;
-  display: flex;
+  width: 2.5rem;/*Specify for the browser*/
+  height:2.5rem;/*Specify for the browser*/
+  
 	  
   border:.5px solid white;
   border-radius: 100%;
