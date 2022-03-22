@@ -139,9 +139,10 @@ color: hsl(215, 32%, 27%);
 }
   #owner-img{
   width: 12%;
+  display: flex;
   border:1px solid white;
   border-radius: 100%;
-  display: flex;
+ 
   margin-top: 1em;
 }
 .owner-name{
