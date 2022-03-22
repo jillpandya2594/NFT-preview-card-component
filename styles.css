@@ -141,6 +141,7 @@ color: hsl(215, 32%, 27%);
   width: 12%;
   border:1px solid white;
   border-radius: 100%;
+  display: flex;
   margin-top: 1em;
 }
 .owner-name{
