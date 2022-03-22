@@ -82,7 +82,7 @@ img{
 h1{
   color:hsl(0, 0%, 100%);
   font-weight: 600;
-	font-size:18px;
+	font-size:1.125rem;
   margin-top: 1em;
 }
 h1:hover{
@@ -90,7 +90,7 @@ color:hsl(178, 100%, 50%);
 cursor:pointer;
 }
 p{
-  font-size: 18px;/*1.125rem;*/
+  font-size: 1.125rem;
   color:hsl(215, 51%, 70%);
 
   margin-top: 1em;
